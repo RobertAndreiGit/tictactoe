@@ -81,7 +81,7 @@ export default function Game({ players, setStart }) {
             <div onClick={() => handleClick(7)}>{gameArr[7]}</div>
             <div onClick={() => handleClick(8)}>{gameArr[8]}</div>
         </div>
-        <div>
+        <div className="buttons">
             <button onClick={() => restartGame()}>Restart Game</button>
             <button onClick={() => setStart(false)}>New Game</button>
         </div>

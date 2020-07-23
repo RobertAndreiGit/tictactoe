@@ -1,0 +1,15 @@
+.gameboard {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gameboard div {
+    font-size: 20vh;
+    height: 1em;
+    width: 1em;
+    border: 1px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
